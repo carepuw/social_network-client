@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+  
+/* PAGE TITLE */
+.page_title {
+  display: block !important;
+  text-align: center;
+  font-size: 2rem;
+  margin-top: 10px;
+}
+
+  /* HOME PAGE */
+/* POST USERNAME TITLE */
+.post_username {
+  display: flex !important;
+}
+.post_username i{
+  font-size: 16px !important;
+  position: relative;
+  margin-left: 3px !important;
+  cursor: pointer;
+  opacity: 0.6 !important;
+  transition: all .2s ease-in-out;
+}
+.post_username i:hover{
+  opacity: 1 !important;
+  
+}
+
+ /* POST BODY */
+.post_body {
+  word-wrap: break-word !important;
+  overflow: hidden;
+  text-overflow: ellipsis !important;
+  white-space: nowrap;
+}
+
+/* POST EXTRA CONTENT -- BUTTONS */
+.ui.teal.button:focus, .ui.teal.buttons .button:focus {
+  background-color: #00b5ad !important;
+}
+
+.card_buttons {
+  display: flex;
+}
+
+.but_container {
+  display: flex !important;
+  flex: 1;
+}
+
+.comments_but {
+  margin: 0 !important;
+}
+  /* SINGLE PAGE POST */
+/* POST BODY */
+.singlePage_postBody {
+  word-wrap: break-word !important;
+}
+
+/* SINGLE PAGE POST CREATE COMMENT */
+.create_comment {
+  padding-top: .75em !important;
+  padding-bottom: 0 !important;
+}
+
+.comment_header {
+  display: flex;
+  margin-bottom: 5px;
+}
+
+.comment_image img{
+  width: 46px;
+  border-radius: 50%;
+}
+
+.comment_info {
+  margin-left: 10px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+  /* REGISTRATION PAGE */
+.registration_block {
+  width: 40%;
+  margin: auto;
+}
+
+.selected_image img{
+  border: 2px solid black !important;
+}
