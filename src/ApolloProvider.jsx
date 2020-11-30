@@ -9,7 +9,7 @@ import {
 import App from './App';
 
 const httpLink = createHttpLink({
-  uri: 'http://localhost:5000',
+  uri: 'https://fast-dusk-49134.herokuapp.com/',
 });
 
 const authLink = setContext(() => {
